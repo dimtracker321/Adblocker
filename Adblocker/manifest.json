@@ -1,0 +1,15 @@
+{
+    "name": "Dimtracker Adblocker",
+    "version": "1.0",
+    "description": "This is Adblocker request ",
+    "permissions": ["webRequest","webRequestBlocking","<all_urls>"],
+    "background": {
+       "scripts": ["background.js"]
+    },
+    "icons":{
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png" 
+    },
+    "manifest_version": 2
+}
